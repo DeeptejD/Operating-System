@@ -1,0 +1,59 @@
+Script started on Tuesday 08 August 2023 12:03:58 PM IST
+]0;softcomputing@softcomputing: ~/Desktop/211105017[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017[00m$ mkdit[Kr[K[K[K[K[Kls
+[0m[01;34mgec[0m  reverse.sh  session
+]0;softcomputing@softcomputing: ~/Desktop/211105017[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017[00m$ ls
+reverse.sh  session
+]0;softcomputing@softcomputing: ~/Desktop/211105017[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017[00m$ mkdir gec && cd gec && mkdir co mp it civil mech etc ene && cd comp && mkdir se te be && cd te && mkdir os dbms  ai && cd os && mkdir exp assn && cd exp
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ cat > fi[K1.txt [A
+this i  s ome   somke  e tetx  xt
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ cat > f1.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2.txt [A]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ [C[C[C[C[C[C[C[C
+
+this is ome   some text
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ cat > f2.txt [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P.txt
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C3.txt [A]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ [C[C[C[C[C[C[C[C
+
+this is some text
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ ls
+f1.txt  f2.txt  f3.txt
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ cd . && cd D esktop/211105017/gec/[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C && cd Des[1Pktop/211105017/gec[A]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ [C[C[C&& cd Desk[1Ptop/211105017/gec[A]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ [C[C[C && cd Desktop/211105017/gec[A]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ [C[C[C&& cd Desk[1Ptop/211105017/gec[A]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/comp/te/os/exp[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/comp/te/os/exp[00m$ [C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C &&[K[K[K[Kc/civil && mkdir se te be && cd .. &&cd ee[Kne && mkdir project in ternal && cd po[Kroject
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/ene/project[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/ene/project[00m$ cat > f1.txt
+this is some text
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/ene/project[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/ene/project[00m$ cat > f1.txt[1P.txt2.txt
+this is some text
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/ene/project[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/ene/project[00m$ cd .. && cd int ernal && cta[K[Kat > f.txt
+this is some text
+]0;softcomputing@softcomputing: ~/Desktop/211105017/gec/ene/internal[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017/gec/ene/internal[00m$ cd && cd Deskt op/211105017/gec/comp[K[K[K[K[K[K[K[K[K
+]0;softcomputing@softcomputing: ~/Desktop/211105017[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017[00m$ tree gec
+[01;34mgec[00m
+|-- [01;34mcivil[00m
+|   |-- [01;34mbe[00m
+|   |-- [01;34mse[00m
+|   `-- [01;34mte[00m
+|-- [01;34mcomp[00m
+|   |-- [01;34mbe[00m
+|   |-- [01;34mse[00m
+|   `-- [01;34mte[00m
+|       |-- [01;34mai[00m
+|       |-- [01;34mdbms[00m
+|       `-- [01;34mos[00m
+|           |-- [01;34massn[00m
+|           `-- [01;34mexp[00m
+|               |-- f1.txt
+|               |-- f2.txt
+|               `-- f3.txt
+|-- [01;34mene[00m
+|   |-- [01;34minternal[00m
+|   |   `-- f.txt
+|   `-- [01;34mproject[00m
+|       |-- f1.txt
+|       `-- f2.txt
+|-- [01;34metc[00m
+|-- [01;34mit[00m
+`-- [01;34mmech[00m
+
+19 directories, 6 files
+]0;softcomputing@softcomputing: ~/Desktop/211105017[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017[00m$ [K]0;softcomputing@softcomputing: ~/Desktop/211105017[01;32msoftcomputing@softcomputing[00m:[01;34m~/Desktop/211105017[00m$ exit
+
+Script done on Tuesday 08 August 2023 12:08:25 PM IST
