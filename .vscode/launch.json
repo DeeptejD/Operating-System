@@ -1,0 +1,27 @@
+{
+    "version": "0.2",
+    "configurations": [
+        
+        {
+            "name": "C++ Debug",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/sjf_at_vectors.cpp", // Replace with your executable file
+            "args": [], // Command-line arguments
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build", // Replace with the name of your build task
+            "miDebuggerPath": "" // Path to your GDB executable (if not in PATH)
+        }
+    ]
+}
