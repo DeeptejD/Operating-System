@@ -196,7 +196,7 @@ int main(int argc, char const *argv[])
         case 1:
             cout << "Which Process?\n", cin >> requesting_process;
             for (int i = 0; i < m; i++)
-                cout << "P" << i << ": ", cin >> request[i];
+                cout << "R" << i << ": ", cin >> request[i];
             if (resourceRequest(requesting_process, m, n, request, need, safeSeq, available, allocation))
                 cout << "The request has been granted successfully Leaving the system in a Safe State\nSafe Sequence: ", printSafeSeq(safeSeq, n), printDetails(n, m, allocation, maxm, need, available);
             else
@@ -239,5 +239,21 @@ Assignment 3 Test Case
 2 2 3
 2 0 3
 1 2 4
+
+*/
+
+/*
+Assignment 3 Test Case-2
+4
+3
+1 0 0
+5 2 0
+1 0 0
+2 1 2
+1 2 1
+2 1 0
+1 0 0
+0 1 2
+1 1 1
 
 */
