@@ -31,6 +31,22 @@ int main(int argc, char const *argv[])
 }
 
 /*
+10
+100
+27
+129
+110
+160
+186
+147
+41
+10
+64
+120
+
+*/
+
+/*
 TestCase
 8
 50

@@ -1,4 +1,4 @@
-// FCFS
+// SSTF
 
 #include <bits/stdc++.h>
 #define N 50
@@ -22,18 +22,18 @@ int SSTF(int headPosition, int totalRequests, int requests[])
     while (left >= 0 && right < totalRequests)
     {
         if (abs(currentPosition - requests[left]) < abs(currentPosition - requests[right]))
-            seekTime += abs(currentPosition - requests[left]), currentPosition = requests[left], cout << currentPosition << "->", left--;
+            seekTime += abs(currentPosition - requests[left]), cout << "(Distance: " << abs(currentPosition - requests[left]), currentPosition = requests[left], cout <<", " << currentPosition << ")" << " -> ", left--;
         else
-            seekTime += abs(currentPosition - requests[right]), currentPosition = requests[right], cout << currentPosition << "->", right++;
+            seekTime += abs(currentPosition - requests[right]), cout << "(Distance: " << abs(currentPosition - requests[right]), currentPosition = requests[right], cout <<", " << currentPosition << ")" << " -> ", right++;
     }
 
     // if there are no more requests on the left side, move to the right side
     while (left >= 0)
-        seekTime += abs(currentPosition - requests[left]), currentPosition = requests[left], cout << currentPosition << "->", left--;
+        seekTime += abs(currentPosition - requests[left]), cout << "(Distance: " << abs(currentPosition - requests[left]), currentPosition = requests[left], cout <<", " << currentPosition << ")" << " -> ", left--;
 
     // if there are no more requests on the right side, move to the left side
     while (right < totalRequests)
-        seekTime += abs(currentPosition - requests[right]), currentPosition = requests[right], cout << currentPosition << "->", right++;
+        seekTime += abs(currentPosition - requests[right]), cout << "(Distance: " << abs(currentPosition - requests[right]), currentPosition = requests[right], cout <<", " << currentPosition << ")" << " -> ", right++;
 
     return seekTime;
 }
