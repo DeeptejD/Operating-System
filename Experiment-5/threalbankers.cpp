@@ -146,6 +146,7 @@ void printSafeSeq(int safeSeq[], int n)
 int main(int argc, char const *argv[])
 {
     int need[N][N], safeSeq[N];
+    // Static Test Case
     // int n = 5, m = 3;
     // int available[] = {3, 3, 2};
     // int maxm[][N] = {{7, 5, 3}, {3, 2, 2}, {9, 0, 2}, {2, 2, 2}, {4, 3, 3}};
