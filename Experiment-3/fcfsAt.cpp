@@ -5,7 +5,7 @@ using namespace std;
 
 struct p
 {
-    int at, bt, wt, tat, p_no;
+    int at, bt, wt, tat, p_no, ct;
 };
 
 bool cmp(p a, p b)
@@ -30,19 +30,22 @@ int main(int argc, char const *argv[])
         pro[i].p_no = i + 1;
         cout << "enter the burst time: ", cin >> pro[i].bt;
         cout << "enter the arrival time: ", cin >> pro[i].at;
-        pro[i].wt = pro[i].tat = 0;
+        pro[i].wt = pro[i].tat = pro[i].ct = 0;
     }
 
     sort(pro, pro + n, cmp);
 
     // calc tats
+    int ctime = 0;
     for (int i = 0; i < n; i++)
     {
-        int ct = 0;
-        for (int j = 0; j < i; j++)
-            ct += pro[j].bt;
-        ct += pro[i].bt;
-        pro[i].tat = ct - pro[i].at;
+        if (pro[i].at > ctime)
+            ctime = pro[i].at + pro[i].bt;
+        else
+            ctime += pro[i].bt;
+
+        pro[i].ct = ctime;
+        pro[i].tat = pro[i].ct - pro[i].at;
     }
 
     // calc wt
@@ -50,7 +53,6 @@ int main(int argc, char const *argv[])
         pro[i].wt = pro[i].tat - pro[i].bt;
 
     // calc atat and awt
-
     for (int i = 0; i < n; i++)
         atat += pro[i].tat, awt += pro[i].wt;
 
@@ -63,7 +65,6 @@ int main(int argc, char const *argv[])
 
     cout << "Avg waiting time: " << std::setprecision(4) << awt / n << endl
          << "Avg tat: " << std::setprecision(4) << atat / n << endl;
-    ;
 
     sort(pro, pro + n, cmp);
 
@@ -99,8 +100,9 @@ int main(int argc, char const *argv[])
 }
 
 /*
+failing testcase
 5
-3
+400
 2
 5
 0
