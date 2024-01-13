@@ -1,111 +1,76 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <bits/stdc++.h>
+#define N 50
 
-int main()
+using namespace std;
+
+void print_frame(int frame[], int n)
 {
-    int numFrames, numPages, pageFaults = 0;
+    for (int i = 0; i < n; i++)
+        frame[i] == -1 ? cout << "- " : cout << frame[i] << " ";
+    cout << endl;
+}
 
-    printf("Enter the number of frames: ");
-    scanf("%d", &numFrames);
+void lru(int reference[], int n, int frames)
+{
+    int frame[frames], frame_count = 0, page_faults = 0, k = 0;
+    map<int, int> memory;
 
-    printf("Enter the number of reference strings: ");
-    scanf("%d", &numPages);
+    // init
+    for (int i = 0; i < frames; i++)
+        frame[i] = -1;
 
-    int *frames = (int *)malloc(numFrames * sizeof(int));
-    int *pages = (int *)malloc(numPages * sizeof(int));
-    int *pageOrder = (int *)malloc(numFrames * sizeof(int));
-
-    if (frames == NULL || pages == NULL || pageOrder == NULL)
+    int ix = 0;
+    for (int i = 0; i < n; i++)
     {
-        printf("Memory allocation error\n");
-        return 1;
-    }
+        // look for page
+        auto tellme = find(frame, frame + frames, reference[i]);
 
-    printf("Enter the reference string: ");
-    for (int i = 0; i < numPages; i++)
-    {
-        scanf("%d", &pages[i]);
-    }
-
-    for (int i = 0; i < numFrames; i++)
-    {
-        frames[i] = -1;   // Initialize frames to -1 (empty)
-        pageOrder[i] = 0; // Initialize page order for each frame
-    }
-
-    printf("\nLRU Page Replacement Steps:\n");
-
-    for (int i = 0; i < numPages; i++)
-    {
-        int page = pages[i];
-        int pageFound = 0;
-
-        // Check if the page is already in a frame
-        for (int j = 0; j < numFrames; j++)
+        // if the page not present
+        if (tellme == frame + frames)
         {
-            if (frames[j] == page)
+            page_faults++;
+            if (frame[ix] == -1)
             {
-                pageFound = 1;
-                // Update page order for the page in the frame
-                pageOrder[j] = i + 1;
-                printf("Page Hit: Page %d -> ", page);
-                for (int k = 0; k < numFrames; k++)
-                {
-                    if (frames[k] == -1)
-                    {
-                        printf("- ");
-                    }
-                    else
-                    {
-                        printf("%d ", frames[k]);
-                    }
-                }
-                printf("\n");
-                break;
+                frame[ix] = reference[i];
+                ix = (ix + 1) % frames;
             }
+            else
+            {
+                int target = 0;
+                for (auto j : memory)
+                {
+                    auto milakya = find(frame, frame + frames, j.first);
+                    if (milakya != frame + frames && memory[frame[target]] > j.second)
+                        target = milakya - frame;
+                }
+
+                frame[target] = reference[i];
+            }
+
+            print_frame(frame, frames);
         }
 
-        if (!pageFound)
-        {
-            // Page fault, so we need to replace a page
-            int replaceIndex = 0;
-            int leastRecent = pageOrder[0];
-
-            // Find the page in a frame that was least recently used
-            for (int j = 1; j < numFrames; j++)
-            {
-                if (pageOrder[j] < leastRecent)
-                {
-                    leastRecent = pageOrder[j];
-                    replaceIndex = j;
-                }
-            }
-
-            // Replace the least recently used page with the new page
-            frames[replaceIndex] = page;
-            pageOrder[replaceIndex] = i + 1;
-            pageFaults++;
-            printf("Page Fault #%d: Page %d -> ", pageFaults, page);
-            for (int j = 0; j < numFrames; j++)
-            {
-                if (frames[j] == -1)
-                {
-                    printf("- ");
-                }
-                else
-                {
-                    printf("%d ", frames[j]);
-                }
-            }
-            printf("\n");
-        }
+        memory[reference[i]] = i;
     }
+    cout << "Number of page faults using LRU: " << page_faults << endl;
+}
 
-    printf("\nTotal Page Faults: %d\n", pageFaults);
-
-    free(frames);
-    free(pages);
-    free(pageOrder);
+int main(int argc, char const *argv[])
+{
+    int reference_string[N], n, frames;
+    cout << "Enter the number of elements in the reference string: ", cin >> n;
+    cout << "Enter the elements of the reference string\n";
+    for (int i = 0; i < n; i++)
+        cin >> reference_string[i];
+    cout << "Enter the number of frames: ", cin >> frames;
+    lru(reference_string, n, frames);
 
     return 0;
 }
+
+/*
+Assignment Test Case
+21
+4 2 3 0 3 2 1 7 5 5 1 2 0 3 0 2 0 1 7 0 7
+3
+*/
