@@ -1,4 +1,8 @@
 // Bankers Algorithm
+
+// mistakes i made while coding
+// when in safeseq and checking if the need is less than work, j needs to be init out and not in the for loop
+
 #include <bits/stdc++.h>
 using namespace std;
 #define N 30

@@ -1,0 +1,126 @@
+Script started on 2024-01-18 00:51:32+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[00m$ ls
+[?2004l[0m[01;32marth.sh[0m  [01;32msession[0m
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[00m$ bash arth.sh
+[?2004lEnter 2 numbers
+4
+5
+Enter a choice\n1.Add\n2.Sub\n3.Mul\n4.Div\n
+1
+SUM: 9
+Continue? 1 for yes anything else for no
+Enter 2 numbers
+1
+6
+Enter a choice\n1.Add\n2.Sub\n3.Mul\n4.Div\n
+2
+DIFF: -5
+Continue? 1 for yes anything else for no
+Enter 2 numbers
+1
+4
+Enter a choice\n1.Add\n2.Sub\n3.Mul\n4.Div\n
+5
+Invalid operation\n
+Continue? 1 for yes anything else for no
+Enter 2 numbers
+1 4
+5
+Enter a choice\n1.Add\n2.Sub\n3.Mul\n4.Div\n
+3
+MUL: 20
+Continue? 1 for yes anything else for no
+Enter 2 numbers
+1
+4
+Enter a choice\n1.Add\n2.Sub\n3.Mul\n4.Div\n
+2
+DIFF: -3
+Continue? 1 for yes anything else for no
+Enter 2 numbers
+4
+2
+Enter a choice\n1.Add\n2.Sub\n3.Mul\n4.Div\n
+4
+DIV: 2
+Continue? 1 for yes anything else for no
+Enter 2 numbers
+9
+^C
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[00m$ clear
+[?2004l[H[2J[3J[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/shellpractice[00m$ cd .. && ls
+[?2004l[0m[34;42mExperiment-1[0m  [34;42mExperiment-3[0m  [34;42mExperiment-5[0m  [34;42mExperiment-7[0m  [01;32mREADME.md[0m  [34;42mmisc[0m    [34;42mpractice[0m
+[34;42mExperiment-2[0m  [34;42mExperiment-4[0m  [34;42mExperiment-6[0m  [34;42mKalpita[0m       [34;42mfin[0m        [34;42moutput[0m  [34;42mshellpractice[0m
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system[00m$ cd misc && bash pattern.sh
+[?2004lenter n
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[00m$ cd misc && bash pattern.sh
+[?2004lbash: cd: misc: No such file or directory
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[00m$ bash pattern.sh
+[?2004lenter n5
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[00m$ ls
+[?2004l[0m[34;42mbatchbpracs[0m  [01;32moccur.sh[0m  [01;32mpalindrome.sh[0m  [01;32mpattern.sh[0m  [01;32msmall.sh[0m  [01;32msort.sh[0m  [01;32msrtn_pre.cxx[0m
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc[00m$ cd batchbpracs
+[?2004l[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ ls
+[?2004l[0m[01;32mdiffbetweensmallestandlargest.sh[0m
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash i[Kdiffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+5692
+Second Smallest Digit: 5
+Second Largest Digit: 6
+Difference: 1
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+123456
+diffbetweensmallestandlargest.sh: line 14: sorted_digits: bad array subscript
+Second Smallest Digit: 
+Second Largest Digit: 
+Difference: 0
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+123456789
+Second Smallest Digit: e
+Second Largest Digit: r
+Difference: 0
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+12334
+Second Smallest Digit: e
+Second Largest Digit: r
+Difference: 0
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+1234
+Second Smallest Digit: e
+Second Largest Digit: r
+Difference: 0
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+123456789
+Second Smallest Digit: 2
+Second Largest Digit: 8
+Difference: 6
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh 
+[?2004lEnter a number:
+12345
+Second Smallest Digit: 2
+Second Largest Digit: 4
+Difference: 2
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bash diffbetweensmallestandlargest.sh [A]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ [K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls
+[?2004l[0m[01;32mdiffbetweensmallestandlargest.sh[0m  [01;32mleap.sh[0m
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[00m$ bsa[K[Kash leap.sh
+[?2004lLeap years from 2000 to 2025
+2000
+2004
+2008
+2012
+2016
+2020
+2024
+[?2004h]0;deeptej@PotatoPC: /mnt/c/Users/Deeptej Dhauskar/Desktop/git/operating-system/misc/batchbpracs[01;32mdeeptej@PotatoPC[00m:[01;34m/mnt/c/Users/Dee
